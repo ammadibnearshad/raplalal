@@ -9,8 +9,18 @@
  */
 {
   "general": {
-    "type_form":{
-      "reply_here_text": "Reply Here..."
+    "type_form": 
+    {
+      "estemate_price_text" : "Estimated Price",
+      "placeholder" : "what other reason?",
+      "email_placeholder":"Email",
+      "postal_placeholder":"Postal Code",
+      "newsletter_text" : "Subscribe to our newsletter",
+      "cross_sell_head":"Cross-Sell Products",
+      "toy_photos": "Toy Photos",
+      "eleventh_form" : {
+        "postal_code" : "postal code"
+      }
     },
     "password_page": {
       "login_form_heading": "Enter store using password:",
@@ -555,23 +565,6 @@
         },
         "discount_order_stacking": {
           "many": "Discounts on order"
-        },
-        "unit_price": {
-          "per_item": {
-            "many": "%{price} for %{count} items"
-          }
-        },
-        "subtotal_label_with_quantity": {
-          "many": "Subtotal %{count} items"
-        },
-        "view_all_items": {
-          "many": "Show all items %{count}"
-        },
-        "pickup_unavailable_banner_title": {
-          "many": "No store is available with your items"
-        },
-        "number_items": {
-          "many": "%{count} items"
         }
       },
       "shipping": {
@@ -604,39 +597,6 @@
           },
           "free_for_first_n_order": {
             "many": "For %{count} first orders"
-          },
-          "free_shipping_cycles": {
-            "many": "Free shipping for %{count} more deliveries"
-          },
-          "free_shipping_cycles_delivery_not_included": {
-            "many": "Free shipping for %{count} deliveries"
-          },
-          "first_n_order_free_with_cycle": {
-            "many": "Free shipping for %{count} more deliveries, then %{recurring_order_shipping_price}"
-          },
-          "first_n_order_free_with_cycle_delivery_not_included": {
-            "many": "Free shipping for %{count} deliveries, then %{recurring_order_shipping_price}"
-          },
-          "max_cycles_base_shipping": {
-            "many": "%{count} additional deliveries for %{shipping_price} each"
-          },
-          "max_cycles_base_shipping_delivery_not_included": {
-            "many": "%{count} additional deliveries for %{shipping_price} each"
-          },
-          "prepaid_free_shipping_with_cycles": {
-            "many": "Free shipping for the first %{cycle}, followed by %{recurring_order_shipping_price}"
-          },
-          "prepaid_order_one_cycle": {
-            "many": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost})"
-          },
-          "prepaid_order_one_cycle_delivery_not_included": {
-            "many": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost})"
-          },
-          "prepaid_order_no_cycle": {
-            "many": "%{shipping_price} for %{count} more deliveries (%{per_delivery_cost}), followed by %{recurring_order_shipping_price}"
-          },
-          "prepaid_order_no_cycle_delivery_not_included": {
-            "many": "%{shipping_price} for %{count} deliveries (%{per_delivery_cost}), followed by %{recurring_order_shipping_price}"
           }
         },
         "shipping_method_first_shipment_group_title": {
@@ -776,9 +736,6 @@
         },
         "number_of_pickup_points_near_location": {
           "many": "%{count} relay points found near your location"
-        },
-        "pickup_unavailable_banner_title": {
-          "many": "No collection point is available for your items"
         }
       },
       "local_pickup": {
@@ -792,11 +749,6 @@
         },
         "reveal_more_label": {
           "many": "See %{count} more locations"
-        }
-      },
-      "merchandise_unavailable_in_buyer_location": {
-        "remove_items_action": {
-          "many": "delete unavailable items"
         }
       }
     },
@@ -813,7 +765,7 @@
       }
     }
   },
-  "Pay_later": {
+ "Pay_later": {
     "free_shipping": "FREE in-store pickup",
     "free": "Free",
     "courier_service": "courier service (Montreal Island only) ",
@@ -863,12 +815,6 @@
         },
         "delivered_description_digital": {
           "many": "These articles are finished."
-        },
-        "tracking_number": {
-          "many": "Tracking numbers"
-        },
-        "gift_card_resend_button": {
-          "many": "Resend gift cards"
         }
       },
       "if_not_received": {
@@ -909,23 +855,6 @@
       },
       "month": {
         "many": "month"
-      },
-      "mapClusterTitle": {
-        "many": "Cluster of {{number}} markers"
-      }
-    },
-    "order_details": {
-      "image_gallery": {
-        "load_more_items": {
-          "many": "Load {{count}} more items"
-        }
-      }
-    },
-    "date": {
-      "humanize": {
-        "lessThanOneHourAgo": {
-          "many": "{{count}} minutes ago"
-        }
       }
     }
   }
